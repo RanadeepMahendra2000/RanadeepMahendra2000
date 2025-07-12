@@ -32,4 +32,5 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
           git commit -m "Auto-update LeetCode stats" || echo "No changes to commit"
-          git push --force-with-lease
+          # Use the token in the push URL so we have permission in a personal/profile repo
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
