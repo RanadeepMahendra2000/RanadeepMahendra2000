@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}       # ← checkout with PAT, not GITHUB_TOKEN
 
       - name: Set up Python
         uses: actions/setup-python@v4
