@@ -8,5 +8,4 @@
 ![LeetCode Hard](https://img.shields.io/badge/Hard-0/798-red)
 
 ### 📊 LeetCode Activity Graph
-
 ![LeetCode Activity Graph](https://leetcard.jacoblin.cool/ranadeep_mahendra2426?theme=dark&font=Karma&ext=heatmap&cache=1689206400)
