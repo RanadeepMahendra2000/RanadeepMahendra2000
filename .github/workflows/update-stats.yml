@@ -1,9 +1,9 @@
 name: Update LeetCode Stats
 
 on:
-  workflow_dispatch:    # allows manual runs
+  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'  # daily at midnight UTC
+    - cron: '0 0 * * *'
 
 jobs:
   update-readme:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -26,11 +28,10 @@ jobs:
 
       - name: Commit and Push Changes
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
           git commit -m "Auto-update LeetCode stats" || echo "No changes to commit"
-          # Use the token in the push URL so we have permission in a personal/profile repo
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git push https://x-access-token:${PAT_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
