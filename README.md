@@ -115,15 +115,15 @@ gantt
   dateFormat  YYYY-MM-DD
   title Progressive Delivery
   section Build
-  Compile & Unit Tests     :a1, 2025-01-01, 1d
-  Dockerize & SBOM         :a2, after a1, 1d
+  Compile and Unit Tests   :a1, 2025-01-01, 1d
+  Dockerize and SBOM       :a2, after a1, 1d
   section Verify
-  Contract/Smoke Tests     :b1, after a2, 1d
-  Load Tests (k6)          :b2, 1d
+  Contract and Smoke Tests :b1, after a2, 1d
+  Load Tests k6            :b2, after b1, 1d
   section Deploy
-  Blue/Green to Staging    :c1, after b2, 1d
-  Canary 10%→50%→100%      :c2, 1d
-  Post-deploy SLO Watch    :c3, 1d
+  Blue-Green to Staging    :c1, after b2, 1d
+  Canary 10-50-100         :c2, after c1, 1d
+  Post-deploy SLO Watch    :c3, after c2, 1d
 ```
 
 **Operating KPIs (snapshot):**
