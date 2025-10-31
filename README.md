@@ -134,11 +134,4 @@ MTTD (mins):      7   →  5  →  4  →  3
 ```
 
 
-**Pin-worthy repos (rename to your actual repo names/links):**  
-- 🚀 settlement-platform — Spring Boot + Kafka Streams on EKS (blue/green + canary)  
-- 📈 portfolio-analytics-api — GraphQL/REST analytics with Redis caching  
-- 🧠 genai-trade-assistant — FastAPI + LangChain RAG with pgvector/FAISS  
-- ✉️ gmail-job-tracker — Supabase + OAuth, embeddings auto-tagging  
-- 🧰 devops-iac-blueprints — Terraform modules, GitHub Actions, ArgoCD patterns  
-
 **Contact:** workwithranadeep@gmail.com • +1-716-533-5625 • Florida, USA (open to relocate) • LinkedIn: linkedin.com/in/ranadeep-mahendra-6534b41b7 • Portfolio: ranadeepdev.online
