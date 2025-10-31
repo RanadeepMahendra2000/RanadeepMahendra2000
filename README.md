@@ -98,16 +98,16 @@ sequenceDiagram
   API-->>UI: JSON + facets
 ```
 
-**RAG / GenAI pipeline (Mermaid flow):**
+## 🧠 RAG / GenAI pipeline (fixed Mermaid)
+
 ```mermaid
 flowchart LR
-  Q[Analyst Question]-->E[Embed Query]
-  E-->V[Vector DB (pgvector/FAISS)]
-  V-->C[Context Builder + Policies]
-  C-->L[LLM (LangChain/OpenAI)]
-  L-->A[Answer + Citations]
-  A-->Audit[Elastic Audit Log]
-```
+  Q["Analyst Question"] --> E["Embed Query"]
+  E --> V["Vector DB (pgvector/FAISS)"]
+  V --> C["Context Builder + Policies"]
+  C --> L["LLM (LangChain/OpenAI)"]
+  L --> A["Answer + Citations"]
+  A --> Audit["Elastic Audit Log"]
 
 **Zero-downtime release (Mermaid Gantt):**
 ```mermaid
