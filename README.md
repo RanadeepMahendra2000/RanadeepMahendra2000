@@ -108,7 +108,7 @@ flowchart LR
   C --> L["LLM (LangChain/OpenAI)"]
   L --> A["Answer + Citations"]
   A --> Audit["Elastic Audit Log"]
-
+```
 **Zero-downtime release (Mermaid Gantt):**
 ```mermaid
 gantt
