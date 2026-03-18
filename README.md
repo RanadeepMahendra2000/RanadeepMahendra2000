@@ -5,7 +5,6 @@ Full-Stack SWE (4+ yrs) building **Java/Spring Boot + React/Next.js** platforms 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ranadeepdev.online-4F46E5?logo=vercel&logoColor=white)](https://ranadeepdev.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ranadeep--mahendra-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ranadeep-mahendra-6534b41b7/)
 [![GitHub](https://img.shields.io/badge/GitHub-RanadeepMahendra2000-181717?logo=github)](https://github.com/RanadeepMahendra2000)
-[![Email](https://img.shields.io/badge/Email-workwithranadeep%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:workwithranadeep@gmail.com)
 
 ---
 ## 🏆 My LeetCode Progress
