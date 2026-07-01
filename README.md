@@ -131,5 +131,3 @@ Error rate (%):   1.1 → 0.7 → 0.4 → 0.3
 MTTD (mins):      7   →  5  →  4  →  3
 ```
 
-
-**Contact:** workwithranadeep@gmail.com • +1-716-533-5625 • Florida, USA (open to relocate) • LinkedIn: linkedin.com/in/ranadeep-mahendra-6534b41b7 • Portfolio: ranadeepdev.online
